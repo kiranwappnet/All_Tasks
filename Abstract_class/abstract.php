@@ -1,12 +1,12 @@
 <?php
 Abstract class Room{
-    public $color;
-    abstract protected function house();
+    
+    abstract protected function buy();
     abstract protected function rent();
 }
 class Person extends Room{
-    public function house(){
-        echo "Seeta and Geeta are staying";
+    public function buy(){
+        echo "Room Purchased..";
         echo "</br>";
 
     }
@@ -17,6 +17,6 @@ class Person extends Room{
 }
 
 $p = new Person();
-$p->house();
+$p->buy();
 $p->rent();
 ?>

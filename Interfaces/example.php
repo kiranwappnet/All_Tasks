@@ -14,7 +14,26 @@ class boys implements person{
         echo "All boys are Unmarried.";
     }
 }
+
+class girls implements person{
+    public function eat()
+    {
+        echo "Girls are eating Fruits";
+        echo "</br>";
+    }
+    public function marry()
+    {
+        echo "All Girls are Married.";
+    }
+}
+
+
+
 $jay= new boys;
 $jay->eat();
 $jay->marry();
+
+$kiran = new girls;
+$kiran->eat();
+$kiran->marry();
 ?>
