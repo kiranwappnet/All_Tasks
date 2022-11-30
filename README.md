@@ -2,8 +2,8 @@
 
 
 
-- [Multilevel Inheritance With Access Modifiers](./multilevel-inheritance-with-access-modifiers-scope/)
-- [Method Overriding](./method-overriding/)
+- [Multilevel Inheritance With Access Modifiers](./Inheritance/)
+- [Method Overriding](./Method_Overriding/)
 - [Abstact Class](./Abstract_class/)
-- [Interfaces](./inrerface-implementaion/)
-- [Traits](./use-traits/)
+- [Interfaces](./Interfaces/)
+- [Traits](./Traits_demo/)
