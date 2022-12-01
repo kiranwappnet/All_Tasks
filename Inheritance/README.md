@@ -2,7 +2,9 @@
 
 This is a Simple PHP example that shows the implementation of Inheritance.
 
-Here we take an example of two classes as Follows Manager and Employee. 
+Here we take an example of two classes as Follows Car and Vehicle. 
 
-Manager can ask any question to the every employee. 
-Every employee can also give answers to the Manager.
+In Vehicle class we have made a $name variable as a private also created two functions start and stop.
+In Car class we can access the variable of parent class by using the concept of inheritance.
+
+

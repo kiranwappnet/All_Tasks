@@ -1,18 +1,39 @@
 <?php
-class Manager{
-    public function que(){
-        echo "Did You Complete all tasks??";
+    // parent class
+    class Vehicle {
+        // protected property name
+        private $name;
+        
+        // public function start
+        public function start() {
+            echo $this->name. " - Engine start...<br/>";
+        }
+        
+        // public function stop
+        public function stop() {
+            echo $this->name. " - Engine stop...<br/>";
+        }
     }
-
-}
-class Employee extends Manager{
-    public function reply(){
-        echo "Yes sir I have completed..";
+    
+    // child class
+    class Car extends Vehicle {
+        
+        public function drive() {
+            // accessing name variable of Car class
+            echo "I am " . $this->name . "<br/>";
+            echo "Lets go on a drive...";
+        }
+        
     }
-}
-$emp1 = new Employee;
-$emp1->que();
-echo "</br>";
-$emp1->reply();
-
+    
+    
+    $car = new Car();
+    $car->name = "Kiran Ramchandani";
+    
+    // calling parent class method
+    $car->start();
+    
+    // calling child class method
+    $car->drive();
+    
 ?>
